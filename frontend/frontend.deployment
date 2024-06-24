@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: miner111/pandacore:frontend_v1
+        image: miner111/pandacore:latest
         ports:
         - containerPort: 5000
         env:
